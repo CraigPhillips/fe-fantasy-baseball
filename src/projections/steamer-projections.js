@@ -1,5 +1,9 @@
-const SteamerProjections = class SteamerProjections {
+const _ = require('privatize')();
 
+const SteamerProjections = class SteamerProjections {
+  constructor(year) { _(this).year = year; }
+
+  print() { console.log(_(this).year); }
 };
 
-modules.exports = SteamerProjections;
+module.exports = SteamerProjections;
