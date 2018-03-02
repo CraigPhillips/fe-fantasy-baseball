@@ -17,6 +17,7 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "privatize": "github:CraigPhillips/privatize#develop"
+    "privatize": "github:CraigPhillips/privatize#develop",
+    "verror": "^1.10.0"
   }
 }
