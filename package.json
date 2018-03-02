@@ -1,0 +1,23 @@
+{
+  "name": "fe-fantasy-baseball",
+  "description": "suite of command line arguments for analyzing fantasy baseball stats",
+  "main": "src/index.js",
+  "scripts": {
+    "rank": "node src/index.js"
+  },
+  "author": "Craig Phillips",
+  "bugs": {
+    "url": "https://github.com/CraigPhillips/fe-fantasy-baseball/issues"
+  },
+  "homepage": "https://github.com/CraigPhillips/fe-fantasy-baseball#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigPhillips/fe-fantasy-baseball.git"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "privatize": "github:CraigPhillips/privatize#develop",
+    "verror": "^1.10.0"
+  }
+}
