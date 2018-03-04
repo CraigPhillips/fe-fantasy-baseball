@@ -21,6 +21,8 @@ class ScoringCategories {
     };
   }
 
+  all() { return Object.keys(_(this).abbrevMap); }
+
   batting() { return this.ofType(this.types.batting); }
 
   detailsFor(abbrev) { return _(this).abbrevMap[abbrev]; }

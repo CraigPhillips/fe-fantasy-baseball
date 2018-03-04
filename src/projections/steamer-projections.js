@@ -24,9 +24,11 @@ function parseProjectionFile(fileName, categories, stash) {
     const data = rawData.split(',');
     const player = { name: noQ(data[0]) };
 
-    categories.forEach((cat) => { player[cat] = noQ(data[columnMap[cat]]); });
+    if (player.name) {
+      categories.forEach((cat) => { player[cat] = noQ(data[columnMap[cat]]); });
 
-    stash.push(player);
+      stash.push(player);
+    }
   });
 }
 
@@ -45,6 +47,9 @@ class SteamerProjections {
       throw new VError(projectionParseError, 'Steamer projection load failed');
     }
   }
+
+  getBatters() { return JSON.parse(JSON.stringify(_(this).batters)); }
+  getPitchers() { return JSON.parse(JSON.stringify(_(this).pitchers)); }
 };
 
 module.exports = SteamerProjections;
