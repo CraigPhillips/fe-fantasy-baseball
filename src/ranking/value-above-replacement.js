@@ -40,9 +40,9 @@ class ValueAboveReplacement {
           return biggerIsBetter? bVal - aVal : aVal - bVal;
         }
         else if(aVal === undefined && bVal == undefined) return 0;
-        else if(aVal === undefined) return -1;
+        else if(aVal === undefined) return 1;
 
-        return 1;
+        return -1;
       });
 
       const replacementLevel = playerStats[replacementLevelIndex][cat];
