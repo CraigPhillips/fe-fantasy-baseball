@@ -27,9 +27,9 @@ class ScoringCategories {
 
   detailsFor(abbrev) { return _(this).abbrevMap[abbrev]; }
 
-  ofType(type) { 
+  ofType(type) {
     return Object.keys(_(this).abbrevMap)
-      .filter(c => _(this).abbrevMap[c].type === type); 
+      .filter(c => _(this).abbrevMap[c].type === type);
   }
 
   pitching() { return this.ofType(this.types.pitching); }

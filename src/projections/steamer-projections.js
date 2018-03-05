@@ -25,7 +25,9 @@ function parseProjectionFile(fileName, categories, stash) {
     const player = { name: noQ(data[0]) };
 
     if (player.name) {
-      categories.forEach((cat) => { player[cat] = noQ(data[columnMap[cat]]); });
+      categories.forEach((cat) => {
+        player[cat] = parseFloat(noQ(data[columnMap[cat]]));
+      });
 
       stash.push(player);
     }
