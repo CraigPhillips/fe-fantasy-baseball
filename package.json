@@ -18,6 +18,7 @@
   "version": "1.0.0",
   "dependencies": {
     "privatize": "github:CraigPhillips/privatize#develop",
-    "verror": "^1.10.0"
+    "verror": "^1.10.0",
+    "yargs": "^11.0.0"
   }
 }
