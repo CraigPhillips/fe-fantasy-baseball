@@ -3,7 +3,7 @@
   "description": "suite of command line arguments for analyzing fantasy baseball stats",
   "main": "src/index.js",
   "scripts": {
-    "create-position-data": "node src/position-eligibility/import.js",
+    "positions": "node src/position-eligibility/import.js",
     "rank": "node src/ranking/run.js"
   },
   "author": "Craig Phillips",
@@ -19,6 +19,7 @@
   "version": "1.0.0",
   "dependencies": {
     "privatize": "github:CraigPhillips/privatize#develop",
+    "puppeteer": "^1.1.1",
     "verror": "^1.10.0",
     "yargs": "^11.0.0"
   }
