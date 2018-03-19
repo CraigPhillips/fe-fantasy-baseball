@@ -1,13 +1,17 @@
 const argv = require('yargs').argv;
 
+const BlackBaller = require('../ranking/black-baller');
 const SteamerProjections = require('../projections/steamer-projections');
 const ValueAboveAverage = require('./value-above-replacement');
 
+const blackBaller = new BlackBaller('exclusions/drafted.txt');
 const steamerProjections = new SteamerProjections('projection-data/2018/03-19');
 const valueAboveAverage = new ValueAboveAverage(11, 8, 10);
 
+const trimmedProjections = blackBaller.trimExcludedFromProjections(
+  steamerProjections);
 const combinedRanks = valueAboveAverage.applyTo(
-  steamerProjections.getBatters().concat(steamerProjections.getPitchers()));
+  trimmedProjections.getBatters().concat(trimmedProjections.getPitchers()));
 
 let i = 0;
 combinedRanks.forEach((player) => {
