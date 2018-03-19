@@ -4,7 +4,9 @@ const fs = require('fs');
 const BlackBaller = class BlackBaller {
   constructor(exclusionFile) {
     const exclusionContents = fs.readFileSync(exclusionFile).toString().trim();
-    _(this).playersToExclude = exclusionContents.split('\n');
+    const exclusionEntries = exclusionContents.split('\n');
+    _(this).playersToExclude = [];
+    exclusionEntries.forEach(n => _(this).playersToExclude.push(n.trim()));
 
     if (_(this).playersToExclude.length == 1 && !_(this).playersToExclude[0]) {
       _(this).playersToExclude = [];

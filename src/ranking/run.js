@@ -24,6 +24,7 @@ combinedRanks.forEach((player) => {
     if (rank.length == 1) rank = ` ${rank}`;
 
     console.log(`${rank}) ${player.name}: ${player.var}`);
+    if (argv.query) console.log(player);
   }
 
   i++;
