@@ -142,7 +142,7 @@
 142. Adam Duvall
 143. Miguel Sanó
 144. Willson Contreras
-145. Nicholas Castellanos
+145. Nick Castellanos
 146. Trevor Bauer
 147. Ian Desmond
 148. Drew Steckenrider
@@ -220,7 +220,7 @@
 220. Paul DeJong
 221. Starlin Castro
 222. Shin-soo Choo
-223. Yuli Gurriel
+223. Yulieski Gurriel
 224. Mike Minor
 225. Marcus Stroman
 226. Bradley Zimmer
@@ -233,7 +233,7 @@
 233. Scott Alexander
 234. Melky Cabrera
 235. Hunter Strickland
-236. Greg Bird
+236. Gregory Bird
 237. Cory Gearrin
 238. Chris Davis
 239. Brandon Woodruff
@@ -248,7 +248,7 @@
 248. Kyle Schwarber
 249. Rick Porcello
 250. Jimmie Sherfy
-251. Lance McCullers Jr.
+251. Lance McCullers
 252. Ivan Nova
 253. Stephen Piscotty
 254. David Peralta
@@ -388,7 +388,7 @@
 388. Mike Leake
 389. Josh Tomlin
 390. Wilmer Flores
-391. Michael A. Taylor
+391. Michael Taylor
 392. Joe Jiménez
 393. Chris Owings
 394. Junior Guerra
