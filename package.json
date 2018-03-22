@@ -3,6 +3,7 @@
   "description": "suite of command line arguments for analyzing fantasy baseball stats",
   "main": "src/index.js",
   "scripts": {
+    "create-position-data": "node src/position-eligibility/import.js",
     "rank": "node src/ranking/run.js"
   },
   "author": "Craig Phillips",
