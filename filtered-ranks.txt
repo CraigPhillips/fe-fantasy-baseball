@@ -95,7 +95,7 @@
 95. Will Harris
 96. Ozzie Albies
 97. Trevor Story
-98. Shohei Ohtani (Pitcher)
+98. Shohei Ohtani
 99. Keone Kela
 100. Ian Happ
 101. Adrián Béltre
@@ -461,3 +461,7 @@
 461. José Reyes
 462. Mikie Mahtook
 463. Welington Castillo
+516. Gleyber Torres
+2514. Eloy Jimenez
+2677. Nick Senzel
+3465. Francisco Mejia
